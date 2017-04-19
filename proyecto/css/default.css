@@ -1,0 +1,119 @@
+.clearfix:before, .clearfix:after{
+	display: table;
+	content: "";
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+
+/*
+a{	
+color: #906871;
+transition: all  .3s  
+}
+
+a:hover{
+	color: #2fb677;
+	}
+
+
+/******* PARA INICIAR SESION *******/
+.cabezera	.container0{
+	width: 2000px;
+	margin: 0 auto;
+	padding: 0  15px;
+}
+
+.cabezera  .menu1{
+	float: right;
+}
+
+.cabezera  .menu1 ul{
+list-style: none;
+position:  relative;
+margin: 0;
+padding: 0;
+}
+
+.cabezera .menu1 ul li{
+	float: left;
+}
+
+.cabezera .menu1 ul li a{
+	padding: 0 12px;
+}
+
+.cabezera .menu1 ul li a:hover , .cabezera .menu1 ul li.active a{
+	color: #fff;
+	border-bottom: 10px solid #5553E5;
+	font-size: 15px;
+
+}
+
+
+/********* MENUES *********/
+#listas {
+	list-style-type: square;
+}
+
+.cabezera	.container1{
+	width: 1870px;
+	margin: 0 auto;
+	padding: 0  15px;
+}
+
+.cabezera  .logo{
+	float: left;	
+	width: 230px;
+	padding: 10px 0;
+}
+
+.cabezera  .menu{
+	float: right;
+}
+
+/*centrar el menu con logo*/
+.cabezera  .menu ul{
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*MUESTRA LOS SUBMENUES*/
+.cabezera  ul ul{
+   top: 0px;
+   transform: translateX(60%);
+  opacity: 0;
+}
+
+/*MUESTRA LOS SUBMENUES*/
+.cabezera  ul li:hover ul{
+  opacity: 1;
+  transform: translateX(0%);
+  box-shadow: 0 200px 0 #D6E4EB inset;
+
+  
+}
+
+.cabezera .menu ul li {
+	float: left;
+	display: block;
+}
+
+.cabezera .menu ul li a{
+	padding: 0 15px;
+	display:  block;
+	line-height: 200px;
+}
+
+.cabezera .menu ul li a:hover  , .cabezera1 .menu1 ul li.active a{
+	color: #fff;
+	box-shadow: 0 200px 0 #7EBDC0 inset;
+	  outline: 0;
+  color: #505050;
+}
+
